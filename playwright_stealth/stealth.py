@@ -64,7 +64,7 @@ class StealthConfig:
     iframe_content_window: bool = True
     media_codecs: bool = True
     navigator_hardware_concurrency: int = 4
-    navigator_languages: bool = True
+    navigator_languages: bool = False
     navigator_permissions: bool = True
     navigator_platform: bool = True
     navigator_plugins: bool = True
