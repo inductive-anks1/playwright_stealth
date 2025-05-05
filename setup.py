@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="playwright-stealth",
+    name="playwright-stealth-custom",
     version="1.0.6",
-    author="AtuboDad",
-    author_email="lcjasas@sina.com",
-    description="playwright stealth",
+    author="Ankit",
+    author_email="ankit.kumar@plaksha.edu.in",
+    description="Custom fork of playwright-stealth with extra features",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/AtuboDad/playwright_stealth",
+    url="https://github.com/inductive-anks1/playwright_stealth",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
